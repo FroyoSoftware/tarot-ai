@@ -1,0 +1,24 @@
+---
+// MORE LOGIC
+---
+
+<!-- src/components/SearchBar.astro -->
+<style>
+  .search-bar {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 1em;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    box-sizing: border-box;
+  }
+
+  .input-search:focus {
+    border-color: #4285f4;
+  }
+</style>
+
+<input type='text' class='search-bar' placeholder='Search' />
